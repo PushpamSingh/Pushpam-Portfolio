@@ -1,0 +1,50 @@
+@media (max-width: 900px) {
+    .testimonial-text{
+        display: flex;
+        flex-direction: column-reverse;
+    }  
+    .name{
+        margin-top: 1.2rem;
+    }
+    .testimonial-text h2{
+        font-size: 1rem;
+    }
+    .testimonial-text h5{
+            font-size: 0.8rem;
+    }
+
+}
+@media (max-width: 700px) {
+    .testimonial-img{
+        height: 100px;
+    }
+    .testimonial-text{
+        justify-content: center;
+        align-items: center;
+    } 
+}
+.send-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: #1788ae;
+    padding: 0.7rem;
+    border-radius: 5px;
+
+}
+#contact form input{
+    border-radius: 10px;
+}
+footer .mysocial a:hover svg{
+    transition: all 200ms ease-in-out 0s;
+}
+footer .mysocial a:hover svg{
+    transform: scale(2);
+}
+.nameimg{
+    transition: all 200ms ease-in-out 0s;
+}
+.nameimg:hover{
+    transform: scale(1.1);
+}
