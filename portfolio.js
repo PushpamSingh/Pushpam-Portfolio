@@ -59,3 +59,33 @@ modelogo.addEventListener("click", ()=>{
         })
         }
 })
+
+const wordslist=['Frontend_Developer','HTML_&_CSS','JavaScript','React.js'];
+const typingarea=document.querySelector('.typingText');
+
+let charInd=0;
+let reverse=1;
+let i=0;
+let reverseType=true;
+
+setInterval(() => {
+  if(charInd<wordslist[i].length && reverseType){
+    typingarea.innerText+=wordslist[i][charInd];
+   charInd++;
+  }else{
+    reverseType=false;
+    let text=typingarea.innerText;
+    typingarea.innerText=text.substring(0,text.length-reverse);
+    if(text.length===0){
+        i++;
+        reverseType=true;
+        charInd=0;
+        if(i>=wordslist.length){
+            i=0;
+            reverseType=true;
+            charInd=0
+        }
+       }
+  }
+ 
+}, 200);
