@@ -60,7 +60,7 @@ modelogo.addEventListener("click", ()=>{
         }
 })
 
-const wordslist=['Frontend_Developer','HTML_&_CSS','JavaScript','React.js'];
+const wordslist=['MERN','Node.js','React.js','Express.js'];
 const typingarea=document.querySelector('.typingText');
 
 let charInd=0;

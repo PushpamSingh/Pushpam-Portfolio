@@ -98,7 +98,7 @@
     margin-top: auto;
 }
 .skill-img #js{
-   background-color: yellow;
+   background-color: green;
    padding: 8px 12px;
    border-radius: 24px;
    color: #000;
@@ -125,7 +125,7 @@
    transition: top 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.25s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .skill-img #html{
-   background-color: #ff2f00;
+   background-color: rgb(16, 121, 67);
    padding: 8px 12px;
    width: 70px;
    text-align: center;
@@ -142,7 +142,7 @@
     transform: rotate(45deg) translateX(-80%);
     left: 50%;
     bottom: -16px;
-    background: yellow;
+    background: green;
 }
 #react::after{
     content: '';
@@ -172,7 +172,7 @@
     transform: rotate(45deg) translateX(-80%);
     left: 50%;
     bottom: -16px;
-    background: #ff2f00;
+    background: rgb(16, 121, 67);
 }
 @media (max-width: 1220px) {
     .information-about{
